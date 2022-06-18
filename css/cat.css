@@ -1,8 +1,8 @@
 
 .container-fluid{
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -47,8 +47,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: -5px;
+    margin-left: -5px;
   }
 
   /*---------------------------------------------------------------------------------------- */
@@ -56,8 +56,8 @@
 .col-md-6{
     position: relative;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 
@@ -83,7 +83,7 @@
  
 /* ----------------------------------------------------------------------------------------- */
 
-.btn {
+.btn-one {
     display: inline-block;
     font-weight: 400;
     color: #EDF1FF;
@@ -97,10 +97,10 @@
     line-height: 1.5;
     border-radius: 0;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
+} */
 
 
-.btn:hover {
+.btn-one:hover {
     color: #EDF1FF;
     text-decoration: none;
 }
@@ -176,7 +176,7 @@
 /* ---------------------------------------------------------------------------------- */
 
 .bg-secondary {
-    background-color: #030303 !important;
+    background-color: #141414 !important;
     /* background: url(/images/cat1-removebg-preview.png); */
     
 }
@@ -253,7 +253,7 @@
     }
 }
 
-.btn:focus, .btn.focus {
+/* .btn:focus, .btn.focus {
     outline: 0;
     box-shadow: none;
 }
@@ -267,4 +267,4 @@
 
 .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-}
+} */
